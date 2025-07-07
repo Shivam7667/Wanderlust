@@ -42,4 +42,4 @@ module.exports.logOut = (req, res, next) =>{
         req.flash("success", "You are logged out Successfully!");
         res.redirect("/listings");
     });
-};
+};   
